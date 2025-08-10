@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Suresh Gatti — DevOps Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- EmailJS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <!-- Other scripts like script.js -->
+<script src="script.js"></script>
+
+<!-- Your EmailJS integration -->
+<script src="email.js"></script>
+</body>
+</html>
+
+
+</head>
+<body>
+
+<header>
+  <div class="container navbar">
+    <div class="logo"><span class="dot"></span> Suresh Gatti</div>
+    <nav>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn" href="GATTISURESH_DevOps.pdf" download>Download Resume</a>
+  </div>
+</header>
+
+<main class="container">
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="intro">
+      <h1>Hi, I’m <span>Suresh Gatti</span></h1>
+      <p>
+        I’m an AWS & DevOps Engineer with 3 years of hands-on experience in building and automating
+        scalable, secure cloud environments. My expertise spans CI/CD pipeline design, Kubernetes orchestration,
+        and infrastructure-as-code with Terraform — always with a focus on delivering reliable systems that make
+        software delivery faster and smoother for teams.
+      </p>
+      <div class="cta-row">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn-alt" href="#contact">Contact Me</a>
+      </div>
+      <div style="margin-top:18px; color:var(--muted); font-size:14px;">
+        <strong>Location:</strong> , India &nbsp; • &nbsp;
+        <strong>Email:</strong> <a href="mailto:gattisuresh26@gmail.com" style="color:var(--muted); text-decoration:none;">gattisuresh26@gmail.com</a>
+      </div>
+    </div>
+    <aside class="profile-card">
+      <div class="profile-pic">
+        <img src="IMG_2385.JPG" alt="Suresh Gatti">
+      </div>
+      <div style="text-align:center;">
+        <div style="font-weight:700; font-size:16px;">Suresh Gatti</div>
+        <div class="meta">AWS • Jenkins • Kubernetes • Terraform</div>
+        <div style="margin-top:10px;">
+          <a class="btn whatsapp-btn" 
+             href="https://wa.me/917901537394?text=Hi%20Suresh,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect." 
+             target="_blank">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+             Message
+          </a>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About</h2>
+    <div class="card">
+      <p style="color:var(--muted); margin:0;">
+        With 3 years as an AWS/DevOps Engineer, I’ve automated and managed deployments across DEV, TEST, STAGE, and PROD environments.
+        My strengths include CI/CD automation (Jenkins, Argo CD), containerisation with Docker and Kubernetes, Infrastructure-as-Code using Terraform,
+        and configuration management with Ansible. I focus on reliability, security, and repeatability so teams can deliver faster with confidence.
+      </p>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE & SKILLS -->
+  <section id="experience">
+    <div class="two-col">
+      <div>
+        <h3>Technical Skills</h3>
+        <div class="card">
+          <div class="skills-list">
+            <div class="skill">AWS (VPC, EC2, S3, RDS, EKS, ELB, IAM, EBS, CloudWatch, ECR, ECS)</div>
+            <div class="skill">Terraform (IaC)</div>
+            <div class="skill">Kubernetes • Docker</div>
+            <div class="skill">CI/CD: Jenkins • Argo CD</div>
+            <div class="skill">Ansible • Bash / Shell Scripting</div>
+            <div class="skill">Monitoring: CloudWatch, Prometheus, Grafana</div>
+            <div class="skill">Version Control: Git, GitHub</div>
+            <div class="skill">Web Servers: Apache Tomcat, Nginx</div>
+            <div class="skill">Databases: MySQL, RDS</div>
+            <div class="skill">Issue Tracking: JIRA</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3>Work Experience</h3>
+        <div class="card timeline">
+          <div class="job">
+            <h4>AWS & DevOps Engineer — TANAMA SOFTWARE PVT LTD, Bangalore</h4>
+            <div class="meta">Oct 2022 — Present</div>
+            <p>
+              Responsible for cloud infrastructure design & automation, CI/CD pipeline implementation, container orchestration, and production support (24×7).
+              Technologies: AWS, Terraform, Jenkins, Docker, Kubernetes, Ansible, Prometheus, Grafana, Git.
+            </p>
+          </div>
+          <div class="job">
+            <h4>DevOps Engineer — Wayfair (project)</h4>
+            <div class="meta">Oct 2022 — Sep 2024</div>
+            <p>
+              Implemented Terraform IaC, created autoscaling policies, integrated Git and CI tools, and supported application deployments across multiple environments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Selected Projects</h2>
+    <div class="card">
+      <div class="projects-grid">
+        <div class="proj">
+          <h5>CI/CD Pipeline Automation</h5>
+          <p>Automated build and deployment using Jenkins, Maven and Artifactory; promoted artifacts through DEV → QA → PROD with rollback capability.</p>
+        </div>
+        <div class="proj">
+          <h5>Kubernetes Platform</h5>
+          <p>Deployed microservices on Kubernetes, used private ECR registry and created autoscaling strategies for resource optimization.</p>
+        </div>
+        <div class="proj">
+          <h5>DevOps Platform Tooling</h5>
+          <p>Created Ansible playbooks for provisioning, wrote bash scripts for routine automation, and configured monitoring & alerting for production systems.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card contact-grid">
+      <div>
+        <p style="color:var(--muted); margin-top:0;">
+          I'm available for full-time roles and contract work. If you'd like to discuss a role or a project, please get in touch.
+        </p>
+        <form id="contact-form" style="margin-top:12px;">
+          <div class="form-row">
+            <label for="name">Full name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div style="display:flex; gap:10px;">
+            <button class="btn" type="submit">Send Message</button>
+            <a class="btn-alt" href="mailto:gattisuresh26@gmail.com">Email Me</a>
+          </div>
+        </form>
+        <p id="status-message" style="margin-top:10px; font-weight:bold;"></p>
+      </div>
+      <aside style="padding-left:8px;">
+        <h4>Get in touch</h4>
+        <div style="color:var(--muted); margin-top:8px;">
+          <p><strong>Phone:</strong> +91 7901537394</p>
+          <p><strong>Email:</strong> <a href="mailto:gattisuresh26@gmail.com" style="color:var(--muted); text-decoration:none;">gattisuresh26@gmail.com</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gattisuresh" target="_blank" style="color:var(--muted); text-decoration:none;">linkedin.com/in/gattisuresh</a></p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer>
+    <div>Built by Suresh Gatti • © <span id="year"></span></div>
+  </footer>
+</main>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Mobile Menu Toggle
+  const toggle = document.querySelector('.menu-toggle');
+  const navUL = document.querySelector('nav ul');
+  if(toggle){
+    toggle.addEventListener('click', () => {
+      navUL.classList.toggle('show');
+    });
+  }
+
+  // Smooth Scroll
+  document.querySelectorAll('a[href^="#"]').forEach(a=>{
+    a.addEventListener('click', function(e){
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if(target) target.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  });
+
+  // EmailJS Init
+  emailjs.init("m-w9kPslaS7C8FtjI");
+
+  // Form Submit
+  document.getElementById("contact-form").addEventListener("submit", function(event) {
+      event.preventDefault();
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const message = document.getElementById("message").value.trim();
+      const statusMessage = document.getElementById("status-message");
+
+      statusMessage.textContent = "Sending...";
+      statusMessage.style.color = "blue";
+
+      // Send to "from customer" template
+      emailjs.send("service_8p2wpis", "template_jb0woid", {
+          to_name: "Suresh Gatti",
+          from_name: name,
+          from_email: email,
+          original_message: message
+      })
+      .then(() => {
+          // Send auto-reply
+          return emailjs.send("service_8p2wpis", "template_tebe7zi", {
+              to_name: name,
+              original_message: message
+          });
+      })
+      .then(() => {
+          statusMessage.textContent = "Message sent successfully!";
+          statusMessage.style.color = "green";
+          document.getElementById("contact-form").reset();
+      })
+      .catch((error) => {
+          console.error("EmailJS Error:", error);
+          statusMessage.textContent = "Failed to send message. Please try again.";
+          statusMessage.style.color = "red";
+      });
+  });
+</script>
+
+</body>
+</html>
